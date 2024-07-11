@@ -1,0 +1,136 @@
+#Hero h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: #006769; 
+}
+#Hero h2 {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 2rem;
+    color: #40A578;
+}
+#Hero .Dev {
+    text-decoration: underline;
+}
+body {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.title-text {
+    position: relative;
+    top: 60px;
+    margin: 50px auto 50px auto;
+}
+.sunset {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 50%;
+}
+.cloud {
+    height: 4rem;
+    position: absolute;
+}
+.top {
+    position: relative;
+    width: 100%;
+    background-color: #D6EFD8;
+    top: -50px;
+}
+.left {
+    left: 120px;
+} 
+.right {
+    right: 150px;
+}
+div {
+    display: block;
+}
+@media (min-width: 319px) and (max-width: 480px) {
+    .right {
+        right: 0px;
+    }
+    .left {
+        left: 0px;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 1200px) {
+    .right {
+        right: 100px;
+    }
+    .left {
+        left: 100px;
+    }
+    }
+.middle {
+    position: relative;    
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    border-radius: 50%;;
+}
+
+.greeting, h3 {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #40A578;
+}
+.intro {
+    width: 25%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #40514e;
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 0 auto;
+    row-gap: 2px;
+    column-gap: 2rem;;
+}
+h4 {
+    color: #40514e;
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2;
+}
+footer{
+    display: absolute   ;
+    background-color: #40A578;
+    padding: 50px 0 20px;
+    margin-bottom: 0;
+}
+footer p {
+    color: white;
+}
+footer > a {
+    color: #006769;
+}
+a:link {
+    text-decoration: none;
+}
+
